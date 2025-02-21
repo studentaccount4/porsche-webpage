@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porsche - Innovation & Performance</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+<header>
+    <h1>Porsche</h1>
+    <nav>
+        <ul>
+            <li><a href="#models">Models</a></li>
+            <li><a href="#history">History</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="hero">
+    <div class="hero-content">
+        <h1 class="hero-title">Porsche</h1>
+        <p class="hero-subtitle">Innovation & Performance</p>
+    </div>
+</section>
+
+<section class="interaction">
+    <h2>Discover More</h2>
+    <button id="infoButton">Click for a Porsche Fun Fact!</button>
+    <p id="factText" style="display: none;"></p>
+</section>
+
+<section id="history">
+    <h2>History of Porsche</h2>
+    <p>Porsche was founded in 1931 and has been a leader in automotive innovation ever since.</p>
+
+    <iframe width="1280" height="720" 
+        src="https://www.youtube.com/embed/UDhE0uBtv7M" 
+        title="Porsche Documentary" frameborder="0" allowfullscreen>
+    </iframe>
+</section>
+
+<section id="models">
+    <h2>Explore Porsche Models</h2>
+    <div class="model-gallery">
+        <a href="https://www.porsche.com/canada/en/models/911/911-turbo-models/911-turbo-s/" target="_blank" class="model">
+            <img src="images/911.png" alt="911 img">
+            <p>Porsche 911 Turbo S</p>
+        </a>
+        <a href="https://www.porsche.com/canada/en/models/taycan/taycan-models/taycan-turbo/" target="_blank" class="model">
+            <img src="images/taycan.png" alt="taycan img">
+            <p>Porsche Taycan Turbo</p>
+        </a>
+        <a href="https://www.porsche.com/canada/en/models/cayenne/cayenne-models/cayenne/" target="_blank" class="model cayenne">
+            <img src="images/cayenne.png" alt="cayenne img">
+            <p>Porsche Cayenne</p>
+        </a>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required aria-label="Enter your name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required aria-label="Enter your email">
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required aria-label="Enter your message"></textarea>
+
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2025 Porsche Enthusiasts</p>
+</footer>
+
+</body>
+</html>
