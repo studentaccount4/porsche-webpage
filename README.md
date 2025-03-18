@@ -1,3 +1,5 @@
+[github pages](https://studentaccount4.github.io/porsche-webpage/)
+
 Purpose of the webpage
 This project was developed to create an interactive and visually engaging Porsche-themed website, showcasing the brand’s history, models, and innovations. The webpage was designed with a user-friendly interface, accessibility features, and interactive elements to enhance engagement and usability. Key features include:
 - Fixed navigation bar
@@ -19,14 +21,17 @@ To optimize user experience, several UI/UX design principles were implemented:
 These design choices create a modern, user-friendly, and visually appealing experience for all visitors.
 
 Team member roles and contributions
+
 Awaab
 - Created the initial webpage structure using HTML, CSS, and JavaScript
 - Developed the fun fact button and structured content layout
 - Wrote the introduction and design & usability sections on the research paper
+  
 Chris
 - Improved visual design and interactivity, including the hero section, vehicle models, hover effects, and contact form
 - Fixed alignment and scaling issues to enhance responsiveness
 - Wrote the technical sections on security, privacy, and accessibility
+  
 Khalifa
 - Designed and structured the presentation slides
 - Ensured well-organized scripts for the video
