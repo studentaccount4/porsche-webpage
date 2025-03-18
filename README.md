@@ -1,5 +1,3 @@
-[webpage link](https://studentaccount4.github.io/porsche-webpage/)
-
 **Purpose of the webpage**
 
 This project was developed to create an interactive and visually engaging Porsche-themed website, showcasing the brand’s history, models, and innovations. The webpage was designed with a user-friendly interface, accessibility features, and interactive elements to enhance engagement and usability. Key features include:
